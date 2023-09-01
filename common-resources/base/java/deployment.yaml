@@ -32,7 +32,7 @@ spec:
               topologyKey: failure-domain.beta.kubernetes.io/zone
             weight: 100  
       imagePullSecrets:
-      - name: registry-secret    
+      - name: registry-secret
       containers:
       - name: app
         image: app
