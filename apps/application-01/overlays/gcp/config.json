@@ -1,0 +1,1 @@
+{"appName":"application-01","userGivenName":"application-01","destNamespace":"default","destServer":"https://kubernetes.default.svc","srcPath":"apps/application-01/overlays/gcp","srcRepoURL":"https://github.com/23-193-SLIIT-RP/argocd-gitops.git","srcTargetRevision":"","labels":null}
