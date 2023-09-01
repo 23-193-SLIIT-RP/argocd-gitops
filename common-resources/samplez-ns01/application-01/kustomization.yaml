@@ -1,5 +1,5 @@
 resources:
-# - deployment.yaml
+- deployment.yaml
 # - virtualService.yaml
 - ../base
 apiVersion: kustomize.config.k8s.io/v1beta1
