@@ -5,8 +5,6 @@ metadata:
 spec:
   template:
     spec:
-      imagePullSecrets:
-      - name: registry-secret
       containers:
       - name: app
         image: sharedregistry23.azurecr.io/application-01:dev
