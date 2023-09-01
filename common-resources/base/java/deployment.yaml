@@ -18,9 +18,7 @@ spec:
     metadata:
       labels:
         app: app
-    spec:
-      imagePullSecrets:
-      - name: registry-secret    
+    spec:  
       affinity:
         podAntiAffinity:
           preferredDuringSchedulingIgnoredDuringExecution:
@@ -32,7 +30,9 @@ spec:
                   values:
                   - app
               topologyKey: failure-domain.beta.kubernetes.io/zone
-            weight: 100      
+            weight: 100  
+      imagePullSecrets:
+      - name: registry-secret    
       containers:
       - name: app
         image: app
