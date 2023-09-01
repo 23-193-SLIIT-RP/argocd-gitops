@@ -38,8 +38,6 @@ spec:
         image: app
         imagePullPolicy: Always    
         envFrom: 
-        - configMapRef:
-            name: samplez-config
         - secretRef:
             name: registry-secret          
         ports:
