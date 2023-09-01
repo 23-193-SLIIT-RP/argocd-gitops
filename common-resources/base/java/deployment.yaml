@@ -36,10 +36,7 @@ spec:
       containers:
       - name: app
         image: app
-        imagePullPolicy: Always    
-        envFrom: 
-        - secretRef:
-            name: registry-secret          
+        imagePullPolicy: Always     
         ports:
           - name: http-port
             protocol: TCP
