@@ -5,6 +5,8 @@ metadata:
   labels:
     app: app
 spec:
+  imagePullSecrets:
+  - name: registry-secret
   replicas: 1
   revisionHistoryLimit: 5
   selector:
@@ -31,8 +33,6 @@ spec:
                   - app
               topologyKey: failure-domain.beta.kubernetes.io/zone
             weight: 100  
-      imagePullSecrets:
-      - name: registry-secret
       containers:
       - name: app
         image: app
