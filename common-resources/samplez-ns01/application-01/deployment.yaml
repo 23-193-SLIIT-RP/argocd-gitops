@@ -2,7 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: samplez
-  namespace: samplez-ns01
+  namespace: samplez
 spec:
   template:
     spec:
