@@ -14,3 +14,6 @@ patches:
     name: samplez
 commonLabels:
   app: application-02
+images:
+- name: sharedregistry23.azurecr.io/application-02
+  digest: sha256:5c7ee2755cb66b9e8acd6c4005be87c3ad9d9b3b845635fea3321c86ff65b45f
