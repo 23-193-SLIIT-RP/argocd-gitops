@@ -68,6 +68,13 @@ spec:
   syncPolicy: {}
   template:
     metadata:
+      annotations:
+        argocd-image-updater.argoproj.io/image-list: my-image=sharedregistry23.azurecr.io/{{ userGivenName }}:dev
+        argocd-image-updater.argoproj.io/my-image.update-strategy: digest
+        argocd-image-updater.argoproj.io/write-back-method: git 
+        argocd-image-updater.argoproj.io/git-branch: main
+        argocd-image-updater.argoproj.io/write-back-target: kustomization
+        argocd-image-updater.argoproj.io/my-image.ignore-tags: latest  
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
