@@ -1,0 +1,6 @@
+- op: replace
+  path: /metadata/name
+  value: application-02
+- op: replace
+  path: /metadata/namespace
+  value: samplez-ns01
