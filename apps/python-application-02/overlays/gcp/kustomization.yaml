@@ -2,3 +2,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../../base
+images:
+- name: sharedregistry23.azurecr.io/python-application-02
+  digest: sha256:0566603c591d3ba087f71d3d958a2fc6002cab5ead1e4a302d09c97a788e6087
