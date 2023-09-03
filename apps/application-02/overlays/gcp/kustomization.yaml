@@ -4,4 +4,4 @@ resources:
 - ../../base
 images:
 - name: sharedregistry23.azurecr.io/application-02
-  digest: sha256:b159033924172ed5de0cbeb26a580494a646635a67f30186f5aedc7aa052e5cf
+  digest: sha256:db6d94c42fe1f382ec161d5f591bed0e5fd6db4ee62e66db6dd2f1d15c65ba37
