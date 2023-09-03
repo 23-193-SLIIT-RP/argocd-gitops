@@ -3,6 +3,10 @@ kind: VirtualService
 metadata:
   name: samplez
 spec:
+  gateways:
+    - default/main-gateway
+  hosts:
+    - '*'
   http:
   - match:
     - uri:
