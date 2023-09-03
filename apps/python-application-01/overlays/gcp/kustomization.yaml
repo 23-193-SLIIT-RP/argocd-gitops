@@ -4,4 +4,4 @@ resources:
 - ../../base
 images:
 - name: sharedregistry23.azurecr.io/python-application-01
-  digest: sha256:e240fb6f09645bb29d02b4a586e0361ed522c7af5d6a0d3e7ddfa008da3eb9f0
+  digest: sha256:af50284a7519ce99dff72542b160e4c2107dbcca04d6b1d9a199380dbbfaff6d
