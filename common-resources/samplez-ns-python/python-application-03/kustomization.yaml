@@ -2,18 +2,9 @@ resources:
 - deployment.yaml
 - virtualService.yaml
 - ../base
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-labels:
-- includeSelectors: true
-  pairs:
-    app: python-application-03
 patches:
 - path: patch.yaml
   target:
     name: samplez
 commonLabels:
   app: python-application-03
-images:
-- name: sharedregistry23.azurecr.io/python-application-03
-  digest: sha256:5c7ee2755cb66b9e8acd6c4005be87c3ad9d9b3b845635fea3321c86ff65b45f
