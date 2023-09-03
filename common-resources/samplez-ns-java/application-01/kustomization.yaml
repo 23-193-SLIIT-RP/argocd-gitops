@@ -1,0 +1,16 @@
+resources:
+- deployment.yaml
+- virtualService.yaml
+- ../base
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+labels:
+- includeSelectors: true
+  pairs:
+    app: application-01
+patches:
+- path: patch.yaml
+  target:
+    name: samplez
+commonLabels:
+  app: application-01

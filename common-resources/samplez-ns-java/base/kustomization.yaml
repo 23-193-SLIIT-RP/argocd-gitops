@@ -2,4 +2,4 @@ bases:
 - ../../base/java
 resources:
   - namespace.yaml
-namespace: samplez-ns01
+namespace: samplez-ns-java
