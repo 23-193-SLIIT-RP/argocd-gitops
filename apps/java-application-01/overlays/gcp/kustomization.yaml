@@ -2,3 +2,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../../base
+images:
+- name: sharedregistry23.azurecr.io/java-application-01
+  digest: sha256:66a7af400f4d4aae0a909987f18e1ca73defa0baa4b04d6f5980c63ff0a4c889
