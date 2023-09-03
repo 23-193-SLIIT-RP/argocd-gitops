@@ -1,0 +1,5 @@
+bases:
+- ../../base/python
+# resources:
+#   - namespace.yaml
+namespace: samplez-ns-python

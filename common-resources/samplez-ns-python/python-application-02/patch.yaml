@@ -1,0 +1,6 @@
+- op: replace
+  path: /metadata/name
+  value: python-application-02
+- op: replace
+  path: /metadata/namespace
+  value: samplez-ns-python
