@@ -35,7 +35,7 @@ spec:
       - name: registry-secret
       containers:
       - name: app
-        image: sharedregistry23.azurecr.io/application-02:gcp
+        image: sharedregistry23.azurecr.io/java-application-01:dev
         imagePullPolicy: Always     
         ports:
           - name: http-port
@@ -55,4 +55,4 @@ spec:
 #     spec:
 #       containers:
 #       - name: app
-#         image: sharedregistry23.azurecr.io/application-01:dev
+#         image: sharedregistry23.azurecr.io/java-application-01:dev

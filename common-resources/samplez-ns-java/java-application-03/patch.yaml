@@ -1,6 +1,6 @@
 - op: replace
   path: /metadata/name
-  value: application-01
+  value: java-application-03
 - op: replace
   path: /metadata/namespace
   value: samplez-ns-java

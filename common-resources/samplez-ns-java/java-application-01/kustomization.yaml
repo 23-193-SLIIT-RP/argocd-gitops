@@ -7,10 +7,10 @@ kind: Kustomization
 labels:
 - includeSelectors: true
   pairs:
-    app: application-01
+    app: java-application-01
 patches:
 - path: patch.yaml
   target:
     name: samplez
 commonLabels:
-  app: application-01
+  app: java-application-01

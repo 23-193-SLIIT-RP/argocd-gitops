@@ -6,9 +6,9 @@ spec:
   http:
   - match:
     - uri:
-        prefix: /application-03
+        prefix: /java-application-03
     route:
     - destination:
-        host: application-03.samplez-ns-java.svc.cluster.local
+        host: java-application-03.samplez-ns-java.svc.cluster.local
         port:
           number: 8080
