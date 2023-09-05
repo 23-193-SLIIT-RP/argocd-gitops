@@ -1,1 +1,0 @@
-{"appName":"java-application-03","userGivenName":"java-application-03","destNamespace":"default","destServer":"https://kubernetes.default.svc","srcPath":"apps/java-application-03/overlays/gcp","srcRepoURL":"https://github.com/23-193-SLIIT-RP/argocd-gitops.git","srcTargetRevision":"","labels":null}

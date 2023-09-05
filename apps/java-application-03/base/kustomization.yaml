@@ -1,4 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-resources:
-- github.com/23-193-SLIIT-RP/argocd-gitops/common-resources/samplez-ns-java/java-application-03/
