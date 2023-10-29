@@ -1,1 +1,0 @@
-{"appName":"application-02","userGivenName":"application-02","destNamespace":"default","destServer":"https://rp-23-193-azure-dns-t0la7ya3.hcp.eastus.azmk8s.io:443","srcPath":"apps/application-02/overlays/azure","srcRepoURL":"https://github.com/23-193-SLIIT-RP/argocd-gitops.git","srcTargetRevision":"","labels":null}
