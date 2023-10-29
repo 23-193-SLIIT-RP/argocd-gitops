@@ -35,7 +35,7 @@ spec:
       - name: registry-secret
       containers:
       - name: app
-        image: sharedregistry23.azurecr.io/python-application-03:gcp
+        image: sharedregistry23193.azurecr.io/python-application-03:gcp
         imagePullPolicy: Always     
         ports:
           - name: http-port
