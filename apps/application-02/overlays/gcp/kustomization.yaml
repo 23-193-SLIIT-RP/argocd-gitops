@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - ../../base
 images:
-- name: sharedregistry23.azurecr.io/application-02
+- name: sharedregistry23193.azurecr.io/application-02
   digest: sha256:3345af5bfd913f51a64977c7499ac5f3bd98774b5135aab21d6c560b9c72e11d
