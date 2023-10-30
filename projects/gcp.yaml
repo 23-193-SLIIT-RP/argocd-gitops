@@ -69,7 +69,7 @@ spec:
   template:
     metadata:
       annotations:
-        argocd-image-updater.argoproj.io/image-list: my-image=sharedregistry23.azurecr.io/{{ userGivenName }}:gcp
+        argocd-image-updater.argoproj.io/image-list: my-image=sharedregistry23193.azurecr.io/{{ userGivenName }}:gcp
         argocd-image-updater.argoproj.io/my-image.update-strategy: digest
         argocd-image-updater.argoproj.io/write-back-method: git 
         argocd-image-updater.argoproj.io/git-branch: main
