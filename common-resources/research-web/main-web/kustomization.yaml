@@ -7,4 +7,4 @@ patches:
   target:
     name: samplez
 commonLabels:
-  app: main-web
+  app: research-web

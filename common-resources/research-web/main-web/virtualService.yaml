@@ -13,6 +13,6 @@ spec:
         prefix: /
     route:
     - destination:
-        host: main-web.main-web.svc.cluster.local
+        host: research-web.main-web.svc.cluster.local
         port:
           number: 8080
