@@ -1,0 +1,1 @@
+{"appName":"research-web","userGivenName":"research-web","destNamespace":"default","destServer":"https://kubernetes.default.svc","srcPath":"common-resources//research-web/","srcRepoURL":"https://github.com/23-193-SLIIT-RP/argocd-gitops.git","srcTargetRevision":"","labels":null,"exclude":"","include":""}
