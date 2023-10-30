@@ -4,4 +4,4 @@ resources:
 - ../../base
 images:
 - name: sharedregistry23193.azurecr.io/java-application-01
-  digest: sha256:d6c5de5b05a073cf19c9fd435da36e0c76b67d052154e17710cfbd34fdc26f36
+  digest: sha256:5676e5a783801104924f8ef55e0731a4a1e97add4d57291582da6e40fa817ea1
