@@ -43,16 +43,3 @@ spec:
             containerPort: 8080
         resources: {}   
       terminationGracePeriodSeconds: 60              
-
-
-# kind: Deployment
-# apiVersion: apps/v1
-# metadata:
-#   name: samplez
-#   namespace: samplez
-# spec:
-#   template:
-#     spec:
-#       containers:
-#       - name: app
-#         image: sharedregistry23.azurecr.io/java-application-01:dev
