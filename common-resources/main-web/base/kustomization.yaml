@@ -1,0 +1,5 @@
+bases:
+- ../../base/html
+# resources:
+#   - namespace.yaml
+namespace: samplez-ns-java

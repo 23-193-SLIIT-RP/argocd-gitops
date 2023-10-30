@@ -1,0 +1,10 @@
+resources:
+- deployment.yaml
+- virtualService.yaml
+- ../base
+patches:
+- path: patch.yaml
+  target:
+    name: samplez
+commonLabels:
+  app: main-web
