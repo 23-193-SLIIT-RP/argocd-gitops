@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
-  name: samplez
+  name: research-web
 spec:
   gateways:
     - default/main-gateway
